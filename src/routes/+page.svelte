@@ -71,12 +71,17 @@
 </section>
 
 <style>
+	section + section {
+		margin-top: var(--space-6);
+	}
+
 	.hero {
-		min-height: 78svh;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		padding: var(--space-5) 0;
+		padding-top: var(--space-6);
+	}
+
+	h2 {
+		font-size: 1.375rem;
+		margin: 0 0 var(--space-3);
 	}
 
 	h1 {
@@ -105,17 +110,7 @@
 		text-wrap: balance;
 	}
 
-	.intro {
-		padding-top: var(--space-5);
-	}
-
-	.intro h2 {
-		font-size: 1.375rem;
-		margin-top: 0;
-	}
-
 	.intro p {
-		margin: 0 0 var(--space-3);
 		text-wrap: pretty;
 	}
 
@@ -130,15 +125,6 @@
 
 	.start:hover {
 		text-underline-offset: 0.5em;
-	}
-
-	#contents {
-		padding-top: var(--space-5);
-	}
-
-	h2 {
-		font-size: 1rem;
-		margin: 0 0 var(--space-3);
 	}
 
 	ol {
@@ -156,7 +142,7 @@
 		display: grid;
 		grid-template-columns: 3ch 1fr;
 		column-gap: var(--space-3);
-		padding: var(--space-4) 0;
+		padding: var(--space-3) 0;
 		color: var(--text);
 		text-decoration: none;
 	}
@@ -181,8 +167,11 @@
 
 	@media (max-width: 40rem) {
 		.hero {
-			min-height: 0;
-			padding: var(--space-6) 0 var(--space-5);
+			padding-top: var(--space-5);
+		}
+
+		section + section {
+			margin-top: var(--space-5);
 		}
 	}
 
