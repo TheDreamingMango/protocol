@@ -1,6 +1,6 @@
 # Protocol notes
 
-**Phase: organize.** Capture continues here. Write only what was said. The site structure lives in `source/site.md`.
+**Phase: build.** Capture continues here. Write only what was said. The site structure lives in `source/site.md`.
 
 Raw capture of the protocol, written only from what was said.
 Do not invent steps, claims, or results. Do not reorganize this file; the site draws from it.

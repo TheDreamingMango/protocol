@@ -1,4 +1,4 @@
 ---
 title: iPhone
-summary: ""
+summary: "Block music and social media with Apple Configurator."
 ---

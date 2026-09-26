@@ -1,6 +1,6 @@
 # Protocol
 
-**Current phase: organize.** See `source/phase.md`. The site structure lives in `source/site.md` and the site foundation is scaffolded. Capture continues in `source/notes.md`. Do not write protocol wording into the site yet.
+**Current phase: build.** See `source/phase.md`. The site structure lives in `source/site.md`. Pages are filled in from `source/notes.md`, starting with the landing page. Capture continues in `source/notes.md`.
 
 A website that fully describes a personal protocol for reducing maladaptive daydreaming as much as possible.
 

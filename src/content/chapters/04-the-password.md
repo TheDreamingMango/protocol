@@ -1,4 +1,4 @@
 ---
 title: The password
-summary: ""
+summary: "One password that takes about eight hours to compute."
 ---

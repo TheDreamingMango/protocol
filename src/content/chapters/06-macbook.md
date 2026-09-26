@@ -1,4 +1,4 @@
 ---
 title: MacBook
-summary: ""
+summary: "Give up the admin account, and block websites with Willpower."
 ---
