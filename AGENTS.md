@@ -21,6 +21,7 @@ Use **Walter Mitty Protocol** as the site title, in the header and in page title
 - Keep the tone calm, direct, and non-judgmental.
 - Do not add accounts, analytics, or extra features unless asked.
 - Use the screenshots in `store-screenshots/` on the website. The folder holds iPhone 6.9 App Store images: `iphone-6.9/slide-01.png` through `slide-04.png`, and `iphone-6.9/strip.png`. Where they appear is decided when the site is organized.
+- Give the site visuals, not just text. The landing page and chapters 1–3 (Why, The trade-off, Triggers) each get at least one visual, and at most two. A visual earns its place only if it is relevant, helps convey the point of that page, and feels premium. Good options are custom diagrams or illustrations, or carefully chosen images. All visuals share one consistent style that matches the site's palette and typography. Diagrams show only what the notes say. A visual must not add steps, claims, or results. Skip a visual rather than use a generic or decorative one.
 - The site will include Google Play Store and Apple App Store links. The user will provide them. They do not exist yet. Do not invent the URLs.
 
 ## How this repo works
