@@ -7,7 +7,7 @@ Decided during organize. Content comes from `source/notes.md`. Wording on the si
 A short landing page, then eight chapters read in order, plus one separate technical guide.
 
 ```
-/                         Landing: what the protocol is, the core idea, numbered contents, start reading
+/                         Landing: Walter Mitty intro, maladaptive daydreaming, what this site is, contents
 /why                      1. Why
 /the-trade-off            2. The trade-off
 /triggers                 3. Triggers
@@ -18,6 +18,16 @@ A short landing page, then eight chapters read in order, plus one separate techn
 /when-access-is-unavoidable  8. When access is unavoidable
 /guides/iphone-setup      Guide: iPhone setup with Apple Configurator
 ```
+
+## Landing page
+
+Content comes from "Intro: Walter Mitty" in the notes. It reads top to bottom as one short argument:
+
+1. **Walter Mitty.** He compulsively daydreamed, and his life was worse for it. Once he stopped, his life got better.
+2. **The turn.** You can do what Walter did. This is the one large, memorable line on the page.
+3. **Maladaptive daydreaming.** One short paragraph naming it. Chapter 1 carries the full explanation, so the landing page does not repeat it.
+4. **What this site is.** A protocol, and the technology it uses, for reducing maladaptive daydreaming. Then "Start reading."
+5. **Contents.** The eight chapters in order.
 
 ## Chapters and where their content comes from
 
@@ -46,7 +56,7 @@ Appears only in chapter 8. Show 1–2 screenshots from `store-screenshots/iphone
 
 ## Navigation
 
-- Minimal header: site name (links home) and a Contents link (the landing page's contents list).
+- Minimal header: the site name, Walter Mitty Protocol (links home), and a Contents link (the landing page's contents list).
 - Each chapter shows "Chapter N of 8" and ends with previous/next links.
 - The guide has an on-page table of contents and a link back to the iPhone chapter.
 - No sidebar.

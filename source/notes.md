@@ -7,6 +7,12 @@ Do not invent steps, claims, or results. Do not reorganize this file; the site d
 
 ---
 
+## Intro: Walter Mitty
+
+Use Walter Mitty as the intro on the landing page. Walter Mitty compulsively daydreamed. His life was bad because of it. Once he was able to stop himself, his life got better. You can be like Walter Mitty.
+
+After that, introduce maladaptive daydreaming. Then say this is a website on implementing a protocol, and using technology, to stop maladaptive daydreaming. The individual chapters come after the landing page.
+
 ## What maladaptive daydreaming is, and why it's bad
 
 You slip into a daydream when you're not satisfied with the present — when you're not into the present, when the present isn't good enough for you.

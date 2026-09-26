@@ -5,7 +5,7 @@
 
 	const first = chapters[0];
 	const description =
-		'A personal protocol for reducing maladaptive daydreaming by making the trade-off harder for your mind.';
+		'Walter Mitty stopped daydreaming, and his life got better. The Walter Mitty Protocol is a personal protocol for reducing maladaptive daydreaming.';
 </script>
 
 <svelte:head>
@@ -14,11 +14,41 @@
 </svelte:head>
 
 <section class="hero">
-	<h1>A protocol for reducing maladaptive daydreaming.</h1>
-	<p class="lede">
-		You slip into a daydream when the present isn't good enough. This protocol makes that
-		trade-off harder. Make the present more worth living, block the music and social media that
-		make daydreams easy, and lock away what can't be blocked.
+	<h1>Walter Mitty Protocol</h1>
+	<div class="story">
+		<p>
+			Walter Mitty couldn't stop daydreaming. In the middle of an ordinary day, he would drift
+			off into a scene where he was the hero. The daydreams felt better than his life, so he kept
+			going back to them, and his real life stayed small.
+		</p>
+		<p>
+			Then he stopped. He put himself into the life in front of him, and it got better.
+		</p>
+	</div>
+	<p class="turn">You can do what Walter did.</p>
+</section>
+
+<section class="intro" aria-labelledby="md-heading">
+	<h2 id="md-heading">Maladaptive daydreaming</h2>
+	<p>
+		You slip into a daydream when the present isn't good enough. In a daydream you can be anyone,
+		and it feels incredible. Daydreaming becomes maladaptive when you do it for hours. All that
+		energy goes into something that isn't real, when it could have gone into your actual life.
+	</p>
+</section>
+
+<section class="intro" aria-labelledby="site-heading">
+	<h2 id="site-heading">What this site is</h2>
+	<p>
+		This site describes a protocol for reducing maladaptive daydreaming as much as possible. It
+		makes the choice to daydream harder for your mind. You make the present more worth living,
+		you block the music and social media that make daydreams easy, and you lock away the devices
+		that can't be blocked.
+	</p>
+	<p>
+		Much of the protocol uses technology to keep those blocks out of easy reach: a supervised
+		iPhone, a MacBook where you aren't the admin, a password that takes about eight hours to
+		compute, and a box with a time lock.
 	</p>
 	{#if first}
 		<a class="start" href={resolve('/[slug]', { slug: first.slug })}>Start reading</a>
@@ -57,17 +87,41 @@
 		text-wrap: balance;
 	}
 
-	.lede {
+	.story p {
 		font-size: 1.1875rem;
 		line-height: 1.6;
 		color: var(--muted);
-		margin: 0 0 var(--space-5);
+		margin: 0 0 var(--space-3);
 		max-width: 52ch;
 		text-wrap: pretty;
 	}
 
+	.turn {
+		font-size: clamp(1.625rem, 4vw, 2.25rem);
+		line-height: 1.2;
+		letter-spacing: -0.02em;
+		font-weight: 600;
+		margin: var(--space-5) 0 0;
+		text-wrap: balance;
+	}
+
+	.intro {
+		padding-top: var(--space-5);
+	}
+
+	.intro h2 {
+		font-size: 1.375rem;
+		margin-top: 0;
+	}
+
+	.intro p {
+		margin: 0 0 var(--space-3);
+		text-wrap: pretty;
+	}
+
 	.start {
-		align-self: flex-start;
+		display: inline-block;
+		margin-top: var(--space-3);
 		font-weight: 600;
 		text-decoration-thickness: 1px;
 		text-underline-offset: 0.35em;
