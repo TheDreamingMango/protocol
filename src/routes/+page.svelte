@@ -18,11 +18,11 @@
 	<div class="story">
 		<p>
 			Walter Mitty couldn't stop daydreaming. In the middle of an ordinary day, he would drift
-			off into a scene where he was the hero. The daydreams felt better than his life, so he kept
-			going back to them, and his real life stayed small.
+			off into a bigger life than the one he had. It felt better than being there, so he kept
+			going back, and his real life stayed small.
 		</p>
 		<p>
-			Then he stopped. He put himself into the life in front of him, and it got better.
+			Then he stopped. The life he kept escaping became one he didn't want to leave.
 		</p>
 	</div>
 	<p class="turn">You can do what Walter did.</p>
@@ -40,15 +40,13 @@
 <section class="intro" aria-labelledby="site-heading">
 	<h2 id="site-heading">What this site is</h2>
 	<p>
-		This site describes a protocol for reducing maladaptive daydreaming as much as possible. It
-		makes the choice to daydream harder for your mind. You make the present more worth living,
-		you block the music and social media that make daydreams easy, and you lock away the devices
-		that can't be blocked.
+		A protocol for reducing maladaptive daydreaming as much as possible by making it a harder
+		choice. You make the present more worth living, block the music and social media that make
+		daydreams easy, and lock away devices that can't be blocked.
 	</p>
 	<p>
-		Much of the protocol uses technology to keep those blocks out of easy reach: a supervised
-		iPhone, a MacBook where you aren't the admin, a password that takes about eight hours to
-		compute, and a box with a time lock.
+		Technology keeps the blocks out of reach: a supervised iPhone, a MacBook where you aren't the
+		admin, a password that takes about eight hours to compute, and a time-lock box.
 	</p>
 	{#if first}
 		<a class="start" href={resolve('/[slug]', { slug: first.slug })}>Start reading</a>
@@ -95,7 +93,6 @@
 	.story p {
 		font-size: 1.1875rem;
 		line-height: 1.6;
-		color: var(--muted);
 		margin: 0 0 var(--space-3);
 		max-width: 52ch;
 		text-wrap: pretty;
