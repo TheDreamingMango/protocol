@@ -25,6 +25,14 @@
 			Then he stopped. The life he kept escaping became one he didn't want to leave.
 		</p>
 	</div>
+	<figure class="still">
+		<img
+			src="/walter-mitty.jpg"
+			alt="Walter Mitty with a pack on his back, looking out across an open landscape."
+			width="640"
+			height="360"
+		/>
+	</figure>
 	<p class="turn">You can do what Walter did.</p>
 </section>
 
@@ -96,6 +104,16 @@
 		margin: 0 0 var(--space-3);
 		max-width: 52ch;
 		text-wrap: pretty;
+	}
+
+	.still {
+		margin: var(--space-5) 0 0;
+	}
+
+	.still img {
+		display: block;
+		width: 100%;
+		height: auto;
 	}
 
 	.turn {
