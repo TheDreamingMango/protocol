@@ -1,4 +1,4 @@
-export const siteName = 'Protocol';
+export const siteName = 'Walter Mitty Protocol';
 
 /** Presence store listings. Leave null until the real URLs exist. */
 export const storeLinks: { appStore: string | null; googlePlay: string | null } = {

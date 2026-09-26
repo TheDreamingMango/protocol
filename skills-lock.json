@@ -1,6 +1,18 @@
 {
   "version": 1,
   "skills": {
+    "frontend-design": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "skillPath": "skills/frontend-design/SKILL.md",
+      "computedHash": "89496d5dd00f4810205f351759594fc2742bf8eea85a2f2b2d1de59f4bd91576"
+    },
+    "nbj-write-clearly": {
+      "source": "yfe404/nbj-write-clearly",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/nbj-write-clearly/SKILL.md",
+      "computedHash": "c3d13b44be2f796a574efa97162180f1902b4a3b7b39fb411729cb83432cc23d"
+    },
     "svelte-code-writer": {
       "source": "sveltejs/ai-tools",
       "sourceType": "github",
