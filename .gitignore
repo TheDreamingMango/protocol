@@ -5,3 +5,5 @@ build
 .env
 .env.*
 vite.config.*.timestamp-*
+.playwright-mcp/
+*.cer

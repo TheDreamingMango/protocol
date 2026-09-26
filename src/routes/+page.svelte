@@ -5,7 +5,7 @@
 
 	const first = chapters[0];
 	const description =
-		'Walter Mitty stopped daydreaming, and his life got better. The Walter Mitty Protocol is a personal protocol for reducing maladaptive daydreaming.';
+		'A protocol I devised for myself and wanted to share. It reduces maladaptive daydreaming as much as possible by making it a harder choice.';
 </script>
 
 <svelte:head>
@@ -47,14 +47,18 @@
 
 <section class="intro" aria-labelledby="site-heading">
 	<h2 id="site-heading">What this site is</h2>
+	<p>I devised this protocol for myself, and I wanted to share it.</p>
 	<p>
-		A protocol for reducing maladaptive daydreaming as much as possible by making it a harder
-		choice. You make the present more worth living, block the music and social media that make
-		daydreams easy, and lock away devices that can't be blocked.
+		It reduces maladaptive daydreaming as much as possible by making it a harder choice. You make
+		the present more worth living. You block the music and social media that make a daydream easy,
+		and you lock away devices that can't be blocked. That is the protocol, with or without an
+		iPhone or a Mac.
 	</p>
 	<p>
-		Technology keeps the blocks out of reach: a supervised iPhone, a MacBook where you aren't the
-		admin, a password that takes about eight hours to compute, and a time-lock box.
+		I use a supervised iPhone and a MacBook where I am not the admin. A password that takes about
+		eight hours to compute is what lets me change either one. Devices that can't be blocked go in
+		a time-lock box. The iPhone chapter and its setup guide are for people with an iPhone. The
+		MacBook chapter is for people with a Mac.
 	</p>
 	{#if first}
 		<a class="start" href={resolve('/[slug]', { slug: first.slug })}>Start reading</a>
@@ -86,21 +90,20 @@
 	}
 
 	h2 {
-		font-size: 1.375rem;
 		margin: 0 0 var(--space-3);
 	}
 
 	h1 {
-		font-size: clamp(2.5rem, 7vw, 4.25rem);
-		line-height: 1.05;
-		letter-spacing: -0.03em;
+		font-size: var(--text-display);
+		line-height: var(--leading-display);
+		letter-spacing: var(--tracking-display);
 		margin: 0 0 var(--space-4);
 		text-wrap: balance;
 	}
 
 	.story p {
-		font-size: 1.1875rem;
-		line-height: 1.6;
+		font-size: var(--text-lede);
+		line-height: var(--leading-lede);
 		margin: 0 0 var(--space-3);
 		max-width: 52ch;
 		text-wrap: pretty;
@@ -117,9 +120,9 @@
 	}
 
 	.turn {
-		font-size: clamp(1.625rem, 4vw, 2.25rem);
-		line-height: 1.2;
-		letter-spacing: -0.02em;
+		font-size: var(--text-turn);
+		line-height: var(--leading-turn);
+		letter-spacing: var(--tracking-turn);
 		font-weight: 600;
 		margin: var(--space-5) 0 0;
 		text-wrap: balance;

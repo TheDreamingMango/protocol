@@ -204,3 +204,9 @@ This helps interrupt music daydreams. Every minute it stops all audio on your de
 What often happens is you start daydreaming, and then every now and then it keeps snapping you to awareness by reminding you: you've been daydreaming for one minute, you've been daydreaming for ten minutes. It helps you be mindful of the daydream that's going on.
 
 It's okay to daydream for about 10–15 minutes. Keep the program running. Let it continue to interrupt the daydream. Let yourself be mindful. Don't force yourself to stop daydreaming. If you do this and become more mindful of your daydreaming while you're daydreaming, you will daydream less. It will still help you.
+
+## Who this is for
+
+The Walter Mitty Protocol is something I devised for myself, and I wanted to share it.
+
+Don't assume other people only have iOS devices. Some sections are for iOS users only, and some details only apply to a particular device. Don't make assumptions beyond the fact that readers suffer from maladaptive daydreaming.

@@ -1,6 +1,6 @@
 # Site structure
 
-Decided during organize. Content comes from `source/notes.md`. Wording on the site must stay faithful to it.
+Decided during organize. Content comes from `source/notes.md`. The facts stay faithful to the notes. The wording is written for the page.
 
 ## Shape
 
@@ -26,8 +26,10 @@ Content comes from "Intro: Walter Mitty" in the notes. It reads top to bottom as
 1. **Walter Mitty.** He compulsively daydreamed, and his life was worse for it. Once he stopped, his life got better.
 2. **The turn.** You can do what Walter did. This is the one large, memorable line on the page.
 3. **Maladaptive daydreaming.** One short paragraph naming it. Chapter 1 carries the full explanation, so the landing page does not repeat it.
-4. **What this site is.** A protocol, and the technology it uses, for reducing maladaptive daydreaming. Then "Start reading."
+4. **What this site is.** The author devised this protocol for himself and wanted to share it. Then what the protocol is: reducing maladaptive daydreaming by making it a harder choice — make the present more worth living, block the music and social media that make a daydream easy, and lock away devices that can't be blocked. Say that this is the protocol with or without an iPhone or a Mac. Then the technology he uses (supervised iPhone, MacBook where he is not the admin, a password that takes about eight hours to compute, a time-lock box), with the iPhone chapter and setup guide marked for people with an iPhone, and the MacBook chapter marked for people with a Mac. Then "Start reading."
 5. **Contents.** The eight chapters in order.
+
+The only assumption about a reader is that they suffer from maladaptive daydreaming. Device-specific chapters and details say who they are for. Do not write the site as if every reader has an iPhone, a Mac, or any other particular device.
 
 ## Chapters and where their content comes from
 

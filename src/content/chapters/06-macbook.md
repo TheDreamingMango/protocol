@@ -1,4 +1,4 @@
 ---
 title: MacBook
-summary: "Give up the admin account, and block websites with Willpower."
+summary: "For a Mac. Give up the admin account, and block websites with Willpower."
 ---
